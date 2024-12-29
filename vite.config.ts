@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/presente-namorado/',
   build: {
     outDir: 'dist',
   },
