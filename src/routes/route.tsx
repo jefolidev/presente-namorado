@@ -17,11 +17,11 @@ import { WelcomePage } from '../pages/welcome/index.tsx'
 
 export function ApplicationRoute() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/presente-namorado">
       <ProfileProvider>
         <MusicProvider>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/presente-namorado" element={<Home />} />
             <Route path="welcome" element={<WelcomePage />} />
             <Route path="polaroid" element={<PolaroidPage />} />
             <Route path="christmasmean" element={<ChristmasMean />} />
